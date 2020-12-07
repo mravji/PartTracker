@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/partPriceImage"
+        android:layout_width="214dp"
+        android:layout_height="214dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/txtpartPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/partPriceImage"
+        android:layout_centerHorizontal="true"
+        android:text="TextView"
+        android:textSize="30sp" />
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txtpartPrice"
+        android:gravity="center_horizontal|center_vertical"></TableLayout>
+
+</RelativeLayout>

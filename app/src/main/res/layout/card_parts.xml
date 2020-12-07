@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/priceButton"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_below="@id/txtmodel"
+            android:layout_gravity="center"
+            android:layout_marginStart="162dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="82dp"
+            android:layout_marginBottom="30dp"
+            android:layout_toEndOf="@id/browserButton"
+            android:background="@color/wildBlueYonder"
+            android:text="View Price History"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/partImage"
+            android:layout_width="214dp"
+            android:layout_height="214dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:id="@+id/txtname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/partImage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="Name Here"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtmodel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtname"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="20dp"
+            android:text="Model"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/browserButton"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_below="@id/txtmodel"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="82dp"
+            android:layout_marginBottom="30dp"
+            android:background="@color/wildBlueYonder"
+            android:text="Open in Browser"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txtPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtmodel"
+            android:layout_centerHorizontal="true"
+            android:text="Price"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+
+    <!--        <TextView-->
+    <!--        android:id="@+id/txthttps"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="40dp"-->
+    <!--        android:text="https"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textSize="20dp"-->
+    <!--        android:textStyle="italic" />-->
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D95D39</color>
+    <color name="colorPrimaryDark">#BC2C1A</color>
+    <color name="colorAccent">#BC2C1A</color>
+    <color name="onyx">#373E40</color>
+    <color name="wildBlueYonder">#ADA8BE</color>
+    <color name="white">#FFFFFF</color>
+</resources>

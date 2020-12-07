@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "454779118684",
+    "firebase_url": "https://scrapyard-23833.firebaseio.com",
+    "project_id": "scrapyard-23833",
+    "storage_bucket": "scrapyard-23833.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454779118684:android:f8ec8cb96dc3f09102b299",
+        "android_client_info": {
+          "package_name": "org.sheridan.scrapeyard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454779118684-8s249c78ena8m53dl591fffggulmodn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAnsnQRuHWMICQDNkLED8K4VT6QWNJUTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454779118684-8s249c78ena8m53dl591fffggulmodn7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454779118684:android:ccb6fe78b860668302b299",
+        "android_client_info": {
+          "package_name": "org.sheridan.scrapyard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454779118684-92eefajda973rpqmrqq3ok1hvsnsmbnq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.sheridan.scrapyard",
+            "certificate_hash": "f4aa585cfcedd8ddb1f5e22f6751f24ae80a5272"
+          }
+        },
+        {
+          "client_id": "454779118684-vbqdg05o8h9v7gr6h2h30i4cn94afoop.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.sheridan.scrapyard",
+            "certificate_hash": "b86e1a525a7679fd33c6602560fe6affd95348dd"
+          }
+        },
+        {
+          "client_id": "454779118684-8s249c78ena8m53dl591fffggulmodn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAnsnQRuHWMICQDNkLED8K4VT6QWNJUTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454779118684-8s249c78ena8m53dl591fffggulmodn7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
